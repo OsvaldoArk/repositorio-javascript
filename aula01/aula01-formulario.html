@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="/" method="post">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <label for="nome_id">Nome:</label><br>
+            <input type="text" placeholder='digite seu nome' name="" id="nome_id"><br>
+            <label>Endereço<br>
+                <input type="text" placeholder='digite seu endereço' name="" id="endereco_id">
+            </label><br>
+            <label>
+                idade <br>
+                <input type="number" name="" id="">
+            </label><br>
+            <label>
+                email<br>
+                <input type="email" name="" id="">
+            </label><br>
+            <label>
+                senha <br>
+                <input type="password" name="" id="">
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Dados profissionais</legend>
+            Ocupação <br>
+            <label>
+                <input type="radio" name="ocupacao" id="">
+                Frontend
+            </label><br>
+            <label>
+                <input type="radio" name="ocupacao" id="">
+                Backend
+            </label><br>
+            <label>
+                <input type="radio" name="ocupacao" id="">
+                Fullstack
+            </label><br>
+            <label>
+                <input type="radio" name="ocupacao" id="">
+                Infra
+            </label><br>
+            <label>
+                <input type="radio" name="ocupacao" id="">
+                DevOps
+            </label><br>
+            <label> turno
+                <select name="turno" id="">
+                    <option value="#" selected disabled>selecione</option>
+                    <option value="manha">manhã</option>
+                    <option value="tarde">tarde</option>
+                    <option value="noite">noite</option>
+                </select>
+            </label>
+        </fieldset>
+        <input type="submit" value="ENVIAR">
+    </form>
+</body>
+
+</html>

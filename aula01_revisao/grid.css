@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+header{
+    display:grid;
+    grid-template-columns: 20vw 80vw;
+    grid-template-rows: 10vh;
+    background-color: darkcyan;
+}
+.logo{
+    background-color: gainsboro;
+    grid-template-rows: 1/2;
+}
+.logo:hover{
+    background-color: darkmagenta;
+}
+nav{
+    background-color: lightblue;
+}
+
+main{
+    display:grid;
+    grid-template-columns: 20vw 80vw;
+    grid-template-rows: 40vh 40vh;
+    background-color: black;
+}
+aside{
+    background-color: darkorange;
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+article{
+    background-color: darkolivegreen;
+    grid-column: 2/3;
+    grid-row:1/2;
+}
+section{
+    background-color: darksalmon;
+    grid-column: 2/3;
+    grid-row:2/3;
+}
+footer{
+    background-color: darkslateblue;
+    width:100vw;
+    height:10vh;
+}
