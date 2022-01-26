@@ -1,0 +1,12 @@
+{
+  "name": "revisao",
+  "version": "1.0.0",
+  "description": "aprendizado de classes js ",
+  "main": "teste.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "type":"module"
+}
